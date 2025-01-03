@@ -61,7 +61,7 @@ public class Board {
     public static void fileContentRemover() {
         try (FileWriter writer = new FileWriter(BOARD_FILE_PATH, false)) {
         } catch (IOException e) {
-            System.out.println("Error while deleting file contents: " + e.getMessage());
+            System.out.println("Error while deleting file contents: " + e.getMessage());////
         }
     }
 }
