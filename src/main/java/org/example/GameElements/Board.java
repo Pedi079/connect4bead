@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.Arrays;
 
 public class Board {
-    private static final String BOARD_FILE_PATH="C:\\Users\\sulle\\Desktop\\connect4-master\\board.txt";
+    private static final String BOARD_FILE_PATH="C:\\Users\\kocse\\OneDrive\\Asztali gép\\connect4bead-master\\board.txt";
 
     // Tábla felépítése
     public static char[][] boardBuilder(int rows,int cols) {
